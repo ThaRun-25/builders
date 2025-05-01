@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png">
+
+        <!--=============== REMIXICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+        <!--=============== SWIPER CSS ===============-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Beaver Builders</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo"><h1>Beaver Builders</h1></a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">About</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#discover" class="nav__link">Packages</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#video" class="nav__link">Interior</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__dark">
+                        <!-- Theme change button -->
+                        <span class="change-theme-name">Theme</span>
+                        <i class="ri-moon-line change-theme" id="theme-button"></i>
+                    </div>
+
+                    <i class="ri-close-line nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-function-line"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <img src="assets/img/home1.jpg" alt="" class="home__img">
+
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <span class="home__data-subtitle">Discover your place</span>
+                        <h1 class="home__data-title">Build <br><b>Your Ideal Home</b></h1>
+                        <a href="#about" class="button">Explore</a>
+
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://www.facebook.com/" target="_blank" class="home__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                            <i class="ri-instagram-fill"></i>
+                        </a>
+                        <a href="https://twitter.com/" target="_blank" class="home__social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+
+                    
+                </div>
+            </section>
+
+            <!--==================== ABOUT ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__data">
+                        <h2 class="section__title about__title">About us Beavers</h2>
+                        <p class="about__description">You can find your ideas, most beautiful and pleasant plots at the best 
+                            prices with special discounts, you choose the place we will guide you all the way, get your 
+                            place now.
+                        </p>
+                        <a href="#discover" class="button">Packages</a>
+                    </div>
+
+                    <div class="about__img">
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about1.jpg" alt="" class="about__img-one">
+                        </div>
+
+                        <div class="about__img-overlay">
+                            <img src="assets/img/about2.jpg" alt="" class="about__img-two">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--==================== DISCOVER ====================-->
+            <section class="discover section" id="discover">
+                <h2 class="section__title">Our Packages</h2>
+                
+                <div class="discover__container container swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== DISCOVER 1 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover1.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Classic</h2>
+                                <span class="discover__description">Reliable structure with cement blocks and basic finishes</span>
+                                <a href="classic.html" class="button">more info</a>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 2 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover2.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Luxe</h2>
+                                <span class="discover__description">Premium materials like <br> AAC blocks, RMC, and better waterproofing
+                                </span>
+                                <a href="luxe.html" class="button">more info</a>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 3 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover3.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Custom Package</h2>
+                                <span class="discover__description">
+                                </span>
+                                <a href="custom.html" class="button">more info</a>
+                            </div>
+                        </div>
+
+                        <!--==================== DISCOVER 4 ====================-->
+                        <div class="discover__card swiper-slide">
+                            <img src="assets/img/discover4.jpg" alt="" class="discover__img">
+                            <div class="discover__data">
+                                <h2 class="discover__title">Royal</h2>
+                                <span class="discover__description">High-end materials, weather-resistant finishes, designer RCC, and more</span>
+                                <a href="royal.html" class="button">more info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== VIDEO ====================-->
+            <section class="video section" id="video">
+                <h2 class="section__title">Interior</h2>
+
+                <div class="video__container container">
+                    <p class="video__description">We also offer full interior design and execution services as an add-on to our villa construction packages. 
+                        From false ceilings to modular kitchens, wardrobes, and lighting — we've got you covered.
+                        <br><br>
+                        <b>Custom Design Consultation:</b><br>
+                        On the day of your site meeting, we will showcase a curated selection of design options tailored to your taste and budget. 
+                        Our team will guide you through the entire process — from layout to material selections.
+                    </p>
+
+                    <div class="video__content">
+                        <video id="video-file">
+                            <source src="assets/video/video.mp4" type="video/mp4">
+                        </video>
+
+                        <button class="button button--flex video__button" id="video-button">
+                            <i class="ri-play-line video__button-icon" id="video-icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        
+<!--==================== CONTACT ====================-->
+<section class="contact section" id="contact">
+  <h2 class="section__title">Get in Touch</h2>
+
+  <div class="contact__container container grid">
+    <form action="https://formspree.io/f/xgvageev" method="POST" class="contact__form" style="width: 100%;">
+      <input type="text" name="name" placeholder="Your Name" class="contact__input" required style="margin-bottom: 1rem; width: 100%; padding: 0.75rem;">
+      <input type="email" name="_replyto" placeholder="Your Email" class="contact__input" required style="margin-bottom: 1rem; width: 100%; padding: 0.75rem;">
+      <textarea name="message" rows="5" placeholder="Your Message" class="contact__input" required style="margin-bottom: 1rem; width: 100%; padding: 0.75rem;"></textarea>
+      <button type="submit" class="button" style="padding: 0.75rem 2rem;">Send Message</button>
+    </form>
+  </div>
+</section>
+
+
+<!--==================== FOOTER ====================-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content grid">
+                    <div class="footer__data">
+                        <h3 class="footer__title">Beavers Construction</h3>
+                        <p class="footer__description">We offer you,<br>
+                            Your ideal home.
+                        </p>
+                        <div>
+                            <a href="https://www.facebook.com/" target="_blank" class="footer__social">
+                                <i class="ri-facebook-box-fill"></i>
+                            </a>
+                            <a href="https://twitter.com/" target="_blank" class="footer__social">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank" class="footer__social">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">About</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="#about" class="footer__link">About Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#discover" class="footer__link">Packages</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#video" class="footer__link">Interiors</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Contact</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="tel:+91 63611977503" class="footer__link">+91 6361977503</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="" class="footer__link">whatsapp</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="footer__data">
+                        <h3 class="footer__subtitle">Support</h3>
+                        <ul>
+                            <li class="footer__item">
+                                <a href="faq.html" class="footer__link">FAQs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="terms.html" class="footer__link">Terms & Conditions</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="privacy.html" class="footer__link">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="footer__rights">
+                    <p class="footer__copy">&#169; 2025 Beavers Construction.</p>
+                </div>
+            </div>
+        </footer>
+
+         <!--========== SCROLL UP ==========-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line scrollup__icon"></i>
+        </a>
+
+        <!--=============== SCROLL REVEAL===============-->
+        <script src="assets/js/scrollreveal.min.js"></script>
+        
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
